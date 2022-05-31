@@ -7,9 +7,14 @@
     <title>Carousel HTML</title>
   </head>
   <style>
+    .carousel-control {
+      width: 648px;
+    }
+
     .carousel-container {
       display: flex;
       flex-direction: row;
+      overflow-x: auto;
     }
 
     .carousel-item {
@@ -21,30 +26,32 @@
     }
   </style>
   <body>
-    <div class="carousel-container">
-      <div class="carousel-item">
-        <img
-          class="carousel-image"
-          width="640px"
-          height="360px"
-          src="./images/1.png"
-        />
-      </div>
-      <div class="carousel-item">
-        <img
-          class="carousel-image"
-          width="640px"
-          height="360px"
-          src="./images/2.png"
-        />
-      </div>
-      <div class="carousel-item">
-        <img
-          class="carousel-image"
-          width="640px"
-          height="360px"
-          src="./images/3.png"
-        />
+    <div class="carousel-control">
+      <div class="carousel-container">
+        <div class="carousel-item">
+          <img
+            class="carousel-image"
+            width="640px"
+            height="360px"
+            src="./images/1.png"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="carousel-image"
+            width="640px"
+            height="360px"
+            src="./images/2.png"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            class="carousel-image"
+            width="640px"
+            height="360px"
+            src="./images/3.png"
+          />
+        </div>
       </div>
     </div>
   </body>
