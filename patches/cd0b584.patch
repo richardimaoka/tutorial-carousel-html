@@ -1,0 +1,31 @@
+commit cd0b5841c4435f3d63d6b3fe7932dd04ac10b0fb
+Author: Richard Imaoka <richard.e.imaoka@gmail.com>
+Date:   Wed Jun 1 02:54:55 2022 +0900
+
+    display: flex
+
+diff --git a/index.html b/index.html
+index 531d649..207e1e5 100644
+--- a/index.html
++++ b/index.html
+@@ -7,6 +7,11 @@
+     <title>Carousel HTML</title>
+   </head>
+   <style>
++    .carousel-container {
++      display: flex;
++      flex-direction: row;
++    }
++
+     .carousel-item {
+       padding: 4px;
+     }
+@@ -16,7 +21,7 @@
+     }
+   </style>
+   <body>
+-    <div>
++    <div class="carousel-container">
+       <div class="carousel-item">
+         <img
+           class="carousel-image"

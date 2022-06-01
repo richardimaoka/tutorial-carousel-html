@@ -1,0 +1,43 @@
+commit 915876dab5c1db8aad3cef7c8d031683d991988a
+Author: Richard Imaoka <richard.e.imaoka@gmail.com>
+Date:   Thu Jun 2 02:15:28 2022 +0900
+
+    decorate buttons
+
+diff --git a/index.html b/index.html
+index afbc22d..8bc60bb 100644
+--- a/index.html
++++ b/index.html
+@@ -32,6 +32,19 @@
+       justify-content: center;
+       padding: 4px 0px;
+     }
++
++    .button {
++      margin: 0px 10px;
++      width: 40px;
++      height: 40px;
++      border-radius: 20px;
++      border-width: 0px;
++      background-color: #5955d9;
++    }
++
++    .button > a {
++      color: #ffffff;
++    }
+   </style>
+   <body>
+     <div class="carousel-control">
+@@ -65,9 +78,9 @@
+         </div>
+       </div>
+       <div class="button-container">
+-        <button><a href="#img-1">1</a></button>
+-        <button><a href="#img-2">2</a></button>
+-        <button><a href="#img-3">3</a></button>
++        <button class="button"><a href="#img-1">1</a></button>
++        <button class="button"><a href="#img-2">2</a></button>
++        <button class="button"><a href="#img-3">3</a></button>
+       </div>
+     </div>
+   </body>

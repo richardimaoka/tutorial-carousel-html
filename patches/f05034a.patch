@@ -1,0 +1,19 @@
+commit f05034aa3b8b5c0f2d3a2300c485e4cd3ef5132b
+Author: Richard Imaoka <richard.e.imaoka@gmail.com>
+Date:   Thu Jun 2 03:03:06 2022 +0900
+
+    hide scroll bar
+
+diff --git a/index.html b/index.html
+index c5b15ce..6f59f65 100644
+--- a/index.html
++++ b/index.html
+@@ -14,7 +14,7 @@
+     .carousel-container {
+       display: flex;
+       flex-direction: row;
+-      overflow-x: auto;
++      overflow-x: hidden;
+       scroll-behavior: smooth;
+       scroll-snap-type: x mandatory;
+     }

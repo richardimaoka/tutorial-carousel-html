@@ -1,0 +1,22 @@
+commit db47c7fa38c3a2219e8a73da17b7a2795b6e5f76
+Author: Richard Imaoka <richard.e.imaoka@gmail.com>
+Date:   Mon May 30 22:15:39 2022 +0900
+
+    initial HTML
+
+diff --git a/index.html b/index.html
+new file mode 100644
+index 0000000..14ee95b
+--- /dev/null
++++ b/index.html
+@@ -0,0 +1,10 @@
++<!DOCTYPE html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>Carousel HTML</title>
++  </head>
++  <body></body>
++</html>

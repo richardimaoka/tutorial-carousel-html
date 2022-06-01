@@ -1,0 +1,38 @@
+commit bbbc0035135eef238e8062e0ec6b4469e299304c
+Author: Richard Imaoka <richard.e.imaoka@gmail.com>
+Date:   Thu Jun 2 02:06:53 2022 +0900
+
+    centering buttons
+
+diff --git a/index.html b/index.html
+index 6f59f65..afbc22d 100644
+--- a/index.html
++++ b/index.html
+@@ -26,6 +26,12 @@
+     .carousel-image {
+       vertical-align: middle;
+     }
++
++    .button-container {
++      display: flex;
++      justify-content: center;
++      padding: 4px 0px;
++    }
+   </style>
+   <body>
+     <div class="carousel-control">
+@@ -58,9 +64,11 @@
+           />
+         </div>
+       </div>
++      <div class="button-container">
++        <button><a href="#img-1">1</a></button>
++        <button><a href="#img-2">2</a></button>
++        <button><a href="#img-3">3</a></button>
++      </div>
+     </div>
+-    <button><a href="#img-1">1</a></button>
+-    <button><a href="#img-2">2</a></button>
+-    <button><a href="#img-3">3</a></button>
+   </body>
+ </html>

@@ -1,0 +1,49 @@
+commit dc7e1df2f24f7d5102e8b824bde73d865dedd3fc
+Author: Richard Imaoka <richard.e.imaoka@gmail.com>
+Date:   Wed Jun 1 02:59:44 2022 +0900
+
+    button links
+
+diff --git a/index.html b/index.html
+index d2c463d..a58770f 100644
+--- a/index.html
++++ b/index.html
+@@ -28,7 +28,7 @@
+   <body>
+     <div class="carousel-control">
+       <div class="carousel-container">
+-        <div class="carousel-item">
++        <div id="img-1" class="carousel-item">
+           <img
+             class="carousel-image"
+             width="640px"
+@@ -36,7 +36,7 @@
+             src="./images/1.png"
+           />
+         </div>
+-        <div class="carousel-item">
++        <div id="img-2" class="carousel-item">
+           <img
+             class="carousel-image"
+             width="640px"
+@@ -44,7 +44,7 @@
+             src="./images/2.png"
+           />
+         </div>
+-        <div class="carousel-item">
++        <div id="img-3" class="carousel-item">
+           <img
+             class="carousel-image"
+             width="640px"
+@@ -54,8 +54,8 @@
+         </div>
+       </div>
+     </div>
+-    <button>1</button>
+-    <button>2</button>
+-    <button>3</button>
++    <button><a href="#img-1">1</a></button>
++    <button><a href="#img-2">2</a></button>
++    <button><a href="#img-3">3</a></button>
+   </body>
+ </html>

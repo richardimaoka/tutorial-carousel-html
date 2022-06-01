@@ -1,0 +1,82 @@
+commit ca39bc3f4d990f960f956ce32e3b06499e62e4ea
+Author: Richard Imaoka <richard.e.imaoka@gmail.com>
+Date:   Wed Jun 1 02:56:28 2022 +0900
+
+    overflow-x: auto
+
+diff --git a/index.html b/index.html
+index 207e1e5..5a05b3e 100644
+--- a/index.html
++++ b/index.html
+@@ -7,9 +7,14 @@
+     <title>Carousel HTML</title>
+   </head>
+   <style>
++    .carousel-control {
++      width: 648px;
++    }
++
+     .carousel-container {
+       display: flex;
+       flex-direction: row;
++      overflow-x: auto;
+     }
+ 
+     .carousel-item {
+@@ -21,30 +26,32 @@
+     }
+   </style>
+   <body>
+-    <div class="carousel-container">
+-      <div class="carousel-item">
+-        <img
+-          class="carousel-image"
+-          width="640px"
+-          height="360px"
+-          src="./images/1.png"
+-        />
+-      </div>
+-      <div class="carousel-item">
+-        <img
+-          class="carousel-image"
+-          width="640px"
+-          height="360px"
+-          src="./images/2.png"
+-        />
+-      </div>
+-      <div class="carousel-item">
+-        <img
+-          class="carousel-image"
+-          width="640px"
+-          height="360px"
+-          src="./images/3.png"
+-        />
++    <div class="carousel-control">
++      <div class="carousel-container">
++        <div class="carousel-item">
++          <img
++            class="carousel-image"
++            width="640px"
++            height="360px"
++            src="./images/1.png"
++          />
++        </div>
++        <div class="carousel-item">
++          <img
++            class="carousel-image"
++            width="640px"
++            height="360px"
++            src="./images/2.png"
++          />
++        </div>
++        <div class="carousel-item">
++          <img
++            class="carousel-image"
++            width="640px"
++            height="360px"
++            src="./images/3.png"
++          />
++        </div>
+       </div>
+     </div>
+   </body>

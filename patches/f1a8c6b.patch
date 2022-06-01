@@ -1,0 +1,43 @@
+commit f1a8c6bcc4cef7d71d25771ece4916f8b3bd150a
+Author: Richard Imaoka <richard.e.imaoka@gmail.com>
+Date:   Wed Jun 1 03:01:29 2022 +0900
+
+    smooth scrolling
+
+diff --git a/index.html b/index.html
+index a58770f..c5b15ce 100644
+--- a/index.html
++++ b/index.html
+@@ -15,6 +15,8 @@
+       display: flex;
+       flex-direction: row;
+       overflow-x: auto;
++      scroll-behavior: smooth;
++      scroll-snap-type: x mandatory;
+     }
+ 
+     .carousel-item {
+@@ -30,6 +32,7 @@
+       <div class="carousel-container">
+         <div id="img-1" class="carousel-item">
+           <img
++            id="img-1"
+             class="carousel-image"
+             width="640px"
+             height="360px"
+@@ -38,6 +41,7 @@
+         </div>
+         <div id="img-2" class="carousel-item">
+           <img
++            id="img-2"
+             class="carousel-image"
+             width="640px"
+             height="360px"
+@@ -46,6 +50,7 @@
+         </div>
+         <div id="img-3" class="carousel-item">
+           <img
++            id="img-3"
+             class="carousel-image"
+             width="640px"
+             height="360px"

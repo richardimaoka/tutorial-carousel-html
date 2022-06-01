@@ -1,0 +1,19 @@
+commit 392ba1b2a19643e691de015ace40a9e8e1180467
+Author: Richard Imaoka <richard.e.imaoka@gmail.com>
+Date:   Wed Jun 1 02:57:20 2022 +0900
+
+    add barebone buttons
+
+diff --git a/index.html b/index.html
+index 5a05b3e..d2c463d 100644
+--- a/index.html
++++ b/index.html
+@@ -54,5 +54,8 @@
+         </div>
+       </div>
+     </div>
++    <button>1</button>
++    <button>2</button>
++    <button>3</button>
+   </body>
+ </html>
