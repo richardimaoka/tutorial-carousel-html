@@ -55,6 +55,8 @@ git apply patches/f05034a.patch # hide scroll bar
 
 # :large_orange_diamond: Action: ブラウザでindex.htmlをリロードしてください。
 
+# :white_check_mark: Result: 以下のように表示されればOKです。
+
 # ![2022-06-06_07h23_18.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/75738/d53e386d-3d62-8ab9-d5cc-1059159e201b.png)
 
 # :large_orange_diamond: Action: 以下のコマンドを入力してください。
@@ -80,3 +82,4 @@ git apply patches/915876d.patch # decorate buttons
 # :white_check_mark: Result: 以下のように表示されればOKです。
 
 # <iframe width="640" height="360" src="https://www.youtube.com/embed/wLTp7YvLBSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
